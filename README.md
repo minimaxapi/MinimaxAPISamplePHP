@@ -4,8 +4,13 @@ Minimax API Sample in PHP
 
 Read this first: https://help.minimax.si/help/api-navodila-za-razvijalce
 
-To get it up and running modify the settings in $params
+To get it up and running modify the settings in $params ... username, password, client_id, client_secret
 
 Lokalizacija = {SI, RS, HR}
-username and password from http://login.saop.si/Profile section "GESLA ZA DOSTOP ZUNANJIH APLIKACIJ"
-client_id and client_secret provided by SAOP support
+
+Username and password from section "GESLA ZA DOSTOP ZUNANJIH APLIKACIJ/Application-specific passwords":
+* SI - https://login.minimax.si/Profile,
+* HR - https://login.minimax.hr/Profile,
+* RS - https://login.minimax.rs/Profile.
+
+client_id and client_secret provided by Minimax support
